@@ -1,0 +1,519 @@
+<object-stream>
+  <com.sun.javafx.collections.ObservableListWrapper>
+    <listenerHelper class="com.sun.javafx.collections.ListListenerHelper$Generic">
+      <changeListeners>
+        <javafx.collections.WeakListChangeListener>
+          <ref>
+            <referent class="null"/>
+            <queue class="java.lang.ref.ReferenceQueue$Null">
+              <lock/>
+              <queueLength>0</queueLength>
+            </queue>
+          </ref>
+        </javafx.collections.WeakListChangeListener>
+        <javafx.collections.WeakListChangeListener>
+          <ref>
+            <referent class="null"/>
+            <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../javafx.collections.WeakListChangeListener/ref/queue"/>
+          </ref>
+        </javafx.collections.WeakListChangeListener>
+        <javafx.collections.WeakListChangeListener>
+          <ref>
+            <referent class="null"/>
+            <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../javafx.collections.WeakListChangeListener/ref/queue"/>
+          </ref>
+        </javafx.collections.WeakListChangeListener>
+        <null/>
+      </changeListeners>
+      <invalidationSize>0</invalidationSize>
+      <changeSize>3</changeSize>
+      <locked>false</locked>
+    </listenerHelper>
+    <changeBuilder>
+      <list class="com.sun.javafx.collections.ObservableListWrapper" reference="../.."/>
+      <changeLock>0</changeLock>
+      <addRemoveChanges/>
+    </changeBuilder>
+    <backingList>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Apple</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>1</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Red fruit</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>2</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Food</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Banana</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null">
+                    <lock/>
+                    <queueLength>0</queueLength>
+                  </queue>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>4</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Food</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Orange</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../ie.conor.ecommerce.item.Product[2]/productName/helper/invalidationListeners/javafx.beans.WeakInvalidationListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>3</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Cucumber</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../ie.conor.ecommerce.item.Product[2]/productName/helper/invalidationListeners/javafx.beans.WeakInvalidationListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>5</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Food</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Coconut</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../ie.conor.ecommerce.item.Product[2]/productName/helper/invalidationListeners/javafx.beans.WeakInvalidationListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>0</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Food</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Kiwi</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../ie.conor.ecommerce.item.Product[2]/productName/helper/invalidationListeners/javafx.beans.WeakInvalidationListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>2</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Fruit</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Chewing Gum</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <null/>
+            </invalidationListeners>
+            <invalidationSize>1</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Chewy</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>5</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Gum</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>Chocolate</value>
+          <valid>true</valid>
+          <helper class="com.sun.javafx.binding.ExpressionHelper$Generic">
+            <observable class="javafx.beans.property.SimpleStringProperty" reference="../.."/>
+            <invalidationListeners>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../ie.conor.ecommerce.item.Product[2]/productName/helper/invalidationListeners/javafx.beans.WeakInvalidationListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+              <javafx.beans.WeakInvalidationListener>
+                <ref>
+                  <referent class="null"/>
+                  <queue class="java.lang.ref.ReferenceQueue$Null" reference="../../../../../../../../listenerHelper/changeListeners/javafx.collections.WeakListChangeListener/ref/queue"/>
+                </ref>
+              </javafx.beans.WeakInvalidationListener>
+            </invalidationListeners>
+            <invalidationSize>2</invalidationSize>
+            <changeSize>0</changeSize>
+            <locked>false</locked>
+          </helper>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:</value>
+          <valid>true</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>10</value>
+          <valid>true</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>true</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+      <ie.conor.ecommerce.item.Product>
+        <productName class="javafx.beans.property.SimpleStringProperty">
+          <value>rory</value>
+          <valid>false</valid>
+          <name></name>
+        </productName>
+        <productDescription class="javafx.beans.property.SimpleStringProperty">
+          <value>Description:person</value>
+          <valid>false</valid>
+          <name></name>
+        </productDescription>
+        <productPrice class="javafx.beans.property.SimpleIntegerProperty">
+          <value>1000000</value>
+          <valid>false</valid>
+          <name></name>
+        </productPrice>
+        <category class="javafx.beans.property.SimpleStringProperty">
+          <value>Category:human</value>
+          <valid>false</valid>
+          <name></name>
+        </category>
+        <subCategory class="javafx.beans.property.SimpleStringProperty">
+          <value>Sub-Category:</value>
+          <valid>true</valid>
+          <name></name>
+        </subCategory>
+        <productBestBeforeDate class="javafx.beans.property.SimpleObjectProperty">
+          <value class="java.time.LocalDate" resolves-to="java.time.Ser">
+            <byte>3</byte>
+            <int>2018</int>
+            <byte>2</byte>
+            <byte>21</byte>
+          </value>
+          <valid>false</valid>
+          <name></name>
+        </productBestBeforeDate>
+      </ie.conor.ecommerce.item.Product>
+    </backingList>
+  </com.sun.javafx.collections.ObservableListWrapper>
+</object-stream>
